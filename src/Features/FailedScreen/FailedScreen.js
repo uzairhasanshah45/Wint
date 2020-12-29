@@ -7,7 +7,7 @@ const FailedScreen = (props) => {
   
   return (
     <View style={styles.mainView}>
-      <SafeAreaView backgroundColor={'#92B6D4'} opacity={0.95} />
+      <SafeAreaView backgroundColor={'#023e8a'} opacity={0.95} />
       <View style={styles.header}>
         <Text style={styles.headerText}>Sorry</Text>
       </View>

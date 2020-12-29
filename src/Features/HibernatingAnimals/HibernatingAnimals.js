@@ -24,6 +24,7 @@ const HibernatingAnimals = (props) => {
   }
   return(
     <View style={styles.container}>
+      <SafeAreaView backgroundColor={'#023e8a'} opacity={0.95} />
       <View style={styles.animalHeader}>
         <TouchableOpacity style={{ position: 'absolute',  left: 15 }} onPress={() => props.navigation.goBack()}>
           <BackIcon name="arrow-back" size={20} color='white' />

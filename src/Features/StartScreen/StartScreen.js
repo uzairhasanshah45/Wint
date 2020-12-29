@@ -7,7 +7,7 @@ const StartScreen = (props) => {
   const {navigation} = props;
   return (
     <View style={styles.mainView}>
-      <SafeAreaView backgroundColor={'#f4845f'} opacity={0.95} />
+      <SafeAreaView backgroundColor={'#023e8a'} opacity={0.95} />
       <View style={styles.header}>
         <Text style={styles.headerText}>Wint</Text>
         <Text style={styles.subheaderText}>Let's Learn Interesting Things About Winter</Text>

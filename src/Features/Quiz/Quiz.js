@@ -283,7 +283,7 @@ const Level1 = (props) => {
 
   return (
     <View style={styles.container}>
-      <SafeAreaView backgroundColor={'#92B6D4'} opacity={0.95} />
+      <SafeAreaView backgroundColor={'#023e8a'} opacity={0.95} />
       <View style={styles.quizheader}>
         <TouchableOpacity style={{ position: 'absolute',  left: 15 }} onPress={() => props.navigation.goBack()}>
           <BackIcon name="arrow-back" size={20} color='white' />

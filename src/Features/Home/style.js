@@ -1,4 +1,4 @@
-import {ScaledSheet} from 'react-native-size-matters';
+import { ScaledSheet } from 'react-native-size-matters';
 import { Dimensions } from 'react-native';
 
 
@@ -26,10 +26,27 @@ export const styles = ScaledSheet.create({
   headrtxt: {
     color: 'white',
   },
-  txt:{
+  txt: {
     color: 'white'
-  }
-  ,buttonView: {
+  },
+  homeMainView: {
+    alignItems: "center",
+    justifyContent: "center"
+  },
+  mainHeading: {
+    color: 'white',
+    fontSize: '60@ms',
+    fontFamily: 'Cochin',
+    fontWeight: 'bold',
+    textAlign: 'center'
+  },
+  mainPara: {
+    fontSize: '16@ms',
+    color: 'white',
+    textAlign: 'center',
+    marginHorizontal: '20@ms',
+  },
+  buttonView: {
     height: '40@ms',
     width: '60%',
     marginTop: '10@ms',
@@ -38,11 +55,23 @@ export const styles = ScaledSheet.create({
     borderRadius: '50@ms',
     backgroundColor: '#61a5c2',
     elevation: 5,
-},
-buttonText: {
+  },
+  buttonText: {
     fontSize: '16@ms',
     color: 'white',
     fontWeight: 'bold',
-    alignSelf: 'center',
-}
+    alignSelf: 'center'
+  },
+  animationBox: {
+    // marginVertical: '10@ms',
+    // justifyContent: 'center',
+    alignItems: 'center',
+    // flex: 3,
+  },
+  animation: {
+    height: '300@ms',
+    width: '500@ms',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
 });
